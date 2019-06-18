@@ -26,7 +26,7 @@ ul {
 
 li {
   float: right;
-    font-size: 20;
+    font-size: 20px;
     font-weight: 600;
     text-transform: capitalize;
     display: inline block;
@@ -41,16 +41,16 @@ li a {
   text-decoration: none;
 }
 
-li a:hover, li a:active {
+li a:hover, la a:active {
     border-bottom: 5px solid;
-    padding-bottom: 32px;
+    padding-bottom: 27px;
     border-bottom-color: #65b5a5;
 }
 
 
 h1 {
   font-size: 30px;
-  font-weight: 800;
+  font-weight: 700;
   color:white;
   margin: 0px;
   padding: 0;
@@ -67,7 +67,7 @@ p {
 button {
   width: 155px;
   height: 40px;
-  border: none;
+  border: solid;
   color: #ffffff;
   font-size: 20px;
   font-weight: 400;
