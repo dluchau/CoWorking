@@ -26,7 +26,7 @@ ul {
 
 li {
   float: right;
-    font-size: 20;
+    font-size: 20px;
     font-weight: 600;
     text-transform: capitalize;
     display: inline block;
@@ -41,16 +41,16 @@ li a {
   text-decoration: none;
 }
 
-li a:hover, li a:active {
+li a:hover, la a:active {
     border-bottom: 5px solid;
-    padding-bottom: 32px;
+    padding-bottom: 27px;
     border-bottom-color: #65b5a5;
 }
 
 
 h1 {
   font-size: 30px;
-  font-weight: 800;
+  font-weight: 700;
   color:white;
   margin: 0px;
   padding: 0;
@@ -65,16 +65,23 @@ p {
 }
 
 button {
-  width: 155px;
-  height: 40px;
-  border: none;
-  color: #ffffff;
+    padding: 10px 25px 10px 25px;
+  border: solid;
+    border-color: 65b5a5;
+  color: white;
   font-size: 20px;
   font-weight: 400;
-  background-color: #3FA0DB;
-  margin-top: 10px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  opacity: 0.8;
+  background-color: #65b5a5;
+}
+
+button:hover {
+    padding: 10px 25px 10px 25px;
+  border: solid;
+    border-color: 65b5a5;
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+  background-color: none;
 }
 
 
@@ -116,12 +123,21 @@ button {
     padding-top: 20px;
 }
 
+.landingbottom {
+    margin-top: 80px;
+}
+
+.landingbottom p {
+    padding-bottom: 10px;
+}
+
 #landing2back {
   background-image: url("../images/indexbackground2.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
     margin-top: 680px;
+    height: 540px;
 }
 
 #landing2 {
