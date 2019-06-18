@@ -85,16 +85,16 @@ button {
   bottom: 0;
   width: 100%;
     margin-top: 0px;
-    
+
 }
 
 #backvideo {
  position: absolute;
-  top: 50%; 
+  top: 50%;
   left: 50%;
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-  z-index: -1000; 
+  z-index: -1000;
   overflow: hidden;
     height: 100%;
     width: 177.77777778vh; /* 100 * 16 / 9 */
@@ -353,3 +353,17 @@ button {
   background-position: bottom;
   padding-top: 50px;
 }
+
+#footer {
+  display: flex;
+  flex-direction: column;
+  height: 290px;
+  background-color: black;
+  width: 100%;
+}
+
+#footer-logo {}
+
+#footer-sider {}
+
+#footer-kontakt {}
