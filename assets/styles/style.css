@@ -2,6 +2,7 @@ body {
   font-family: "montserrat", sans-serif;
   background-position: center;
   margin: 0;
+    text-align: center;
 }
 
 header {
@@ -11,6 +12,8 @@ header {
     position: fixed;
     z-index: 1000;
     margin-top: -680px;
+    text-align: center;
+    display: block;
 }
 
 ul {
@@ -22,6 +25,7 @@ ul {
     margin: 0 auto;
     position:fixed;
     text-align: center;
+    margin: auto;
 }
 
 li {
@@ -31,6 +35,7 @@ li {
     text-transform: capitalize;
     display: inline block;
     padding-top: 20px;
+    text-align: center;
 }
 
 li a {
@@ -52,6 +57,14 @@ h1 {
   font-size: 30px;
   font-weight: 700;
   color:white;
+  margin: 0px;
+  padding: 0;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 800;
+  color: black;
   margin: 0px;
   padding: 0;
 }
@@ -92,7 +105,6 @@ button:hover {
   bottom: 0;
   width: 100%;
     margin-top: 0px;
-
 }
 
 #backvideo {
@@ -143,9 +155,14 @@ button:hover {
 #landing2 {
   max-width: 900px;
   margin: 0 auto;
-  text-align: right;
   padding-top: 75px;
     height: 540px;
+    margin-left: 50%;
+    padding: 20px 100px 20px 20px;
+}
+
+#landing2 p {
+    color: black;
 }
 
 #landing3back {
