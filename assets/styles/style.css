@@ -356,14 +356,81 @@ button {
 
 #footer {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
   height: 290px;
   background-color: black;
   width: 100%;
 }
 
-#footer-logo {}
+#footer-logo {
+  height: auto;
+  width: 20%;
+  background-color: red;
+}
 
-#footer-sider {}
+#social-icons {
+	display: flex;
+	flex-wrap: wrap;
+	height: 90%;
+  width: 100%;
+  padding: 6% 13% 4% 13%;
+	flex-direction: row;
+  justify-content: center;
+}
 
-#footer-kontakt {}
+#social-icons a {
+  	margin: 1.5%;
+}
+
+.social-icon {
+  text-align: center;
+  position: relative;
+	height: 30px;
+	width: 30px;
+	margin: 1.3%;
+}
+
+
+.i1 {
+  background: url("../assets/images/icon-CW-facebook.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.i2 {
+  background: url("../graphic/SOME/icon-CW-insta.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.i3 {
+  background: url("../graphic/SOME/icon-CW-linkedin.png");
+  background-size: cover;
+  background-position: center;
+}
+
+
+#footer-sider {
+  height: 60%;
+  width: 20%;
+  background-color: blue;
+}
+
+#footer-sider ul {
+  list-style-type: none;
+}
+
+#footer-sider li {
+    font-size: 1em;
+    font-weight: 100;
+    text-transform: capitalize;
+}
+
+#footer-kontakt {
+  height: 60%;
+  width: 20%;
+  background-color: green;
+}
