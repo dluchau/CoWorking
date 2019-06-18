@@ -116,6 +116,14 @@ button {
     padding-top: 20px;
 }
 
+.landingbottom {
+    margin-top: 80px;
+}
+
+.landingbottom p {
+    padding-bottom: 10px;
+}
+
 #landing2back {
   background-image: url("../images/indexbackground2.png");
   background-repeat: no-repeat;
