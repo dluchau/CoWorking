@@ -417,13 +417,13 @@ button:hover {
 }
 
 .i2 {
-  background: url("../graphic/SOME/icon-CW-insta.png");
+  background: url("../assets/images//icon-CW-insta.png");
   background-size: cover;
   background-position: center;
 }
 
 .i3 {
-  background: url("../graphic/SOME/icon-CW-linkedin.png");
+  background: url("../assets/images/icon-CW-linkedin.png");
   background-size: cover;
   background-position: center;
 }
@@ -435,14 +435,9 @@ button:hover {
   background-color: blue;
 }
 
-#footer-sider ul {
-  list-style-type: none;
-}
-
-#footer-sider li {
-    font-size: 1em;
-    font-weight: 100;
-    text-transform: capitalize;
+#footer-sider a {
+  display: block;
+  text-decoration: none;
 }
 
 #footer-kontakt {
