@@ -99,14 +99,14 @@ button:hover {
 
 
 #landing1back {
+    background-image: url("../images/indexbackground1.jpg");
   height: 540px;
     position: absolute;
-  top: 0;
-  bottom: 0;
   width: 100%;
     margin-top: 0px;
 }
 
+/*
 #backvideo {
  position: absolute;
   top: 50%;
@@ -120,13 +120,17 @@ button:hover {
     min-width: 100%;
     min-height: 56.25vw; /* 100 * 9 / 16 */
 }
+*/
 
 #landing1 {
   max-width: 1100px;
   margin: 0 auto;
+    /*
   padding-top: 160px;
+    */
   height: 540px;
     text-align: center;
+    
 }
 
 #landing1 p {
