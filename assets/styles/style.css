@@ -1,0 +1,355 @@
+body {
+  font-family: "montserrat", sans-serif;
+  background-position: center;
+  margin: 0;
+}
+
+header {
+    min-width: 100%;
+    height: 90px;
+    background-color: white;
+    position: fixed;
+    z-index: 1000;
+    margin-top: -680px;
+}
+
+ul {
+  list-style-type: none;
+  background-color: white;
+    width: 1100px;
+    height: 90px;
+    color: black;
+    margin: 0 auto;
+    position:fixed;
+    text-align: center;
+}
+
+li {
+  float: right;
+    font-size: 20;
+    font-weight: 600;
+    text-transform: capitalize;
+    display: inline block;
+    padding-top: 20px;
+}
+
+li a {
+  display: block;
+  color: #000E25;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, li a:active {
+    border-bottom: 5px solid;
+    padding-bottom: 32px;
+    border-bottom-color: #65b5a5;
+}
+
+
+h1 {
+  font-size: 30px;
+  font-weight: 800;
+  color:white;
+  margin: 0px;
+  padding: 0;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 400;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  width: 155px;
+  height: 40px;
+  border: none;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 400;
+  background-color: #3FA0DB;
+  margin-top: 10px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  opacity: 0.8;
+}
+
+
+#landing1back {
+  height: 540px;
+    position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+    margin-top: 0px;
+    
+}
+
+#backvideo {
+ position: absolute;
+  top: 50%; 
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  z-index: -1000; 
+  overflow: hidden;
+    height: 100%;
+    width: 177.77777778vh; /* 100 * 16 / 9 */
+    min-width: 100%;
+    min-height: 56.25vw; /* 100 * 9 / 16 */
+}
+
+#landing1 {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding-top: 160px;
+  height: 540px;
+    text-align: center;
+}
+
+#landing1 p {
+    width: 550px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+#landing2back {
+  background-image: url("../images/indexbackground2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+    margin-top: 680px;
+}
+
+#landing2 {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: right;
+  padding-top: 75px;
+    height: 540px;
+}
+
+#landing3back {
+  background-image: url("index3background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 540px;
+}
+
+#landing3 {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: left;
+  padding-top: 95px;
+     height: 540px;
+}
+
+#landing4back {
+  background-image: url("index4background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 540px;
+}
+
+#landing4 {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: left;
+  padding-top: 175px;
+     height: 540px;
+}
+
+
+
+#pricingback {
+  background-image: url("pricingbackground.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+
+#pricing {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: left;
+  padding-top: 50px;
+}
+
+#boxes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+    width: 900px;
+}
+
+#boxone {
+  width: 284px;
+  height: 120px;
+  background-image: url("pc1.jpg");
+  background-size: cover;
+  margin-right: 23px;
+}
+
+#boxtwo {
+  width: 284px;
+  height: 120px;
+  background-image: url("pc6.jpg");
+  background-size: cover;
+  margin-right: 23px;
+}
+
+#boxthree {
+  width: 284px;
+  height: 120px;
+  background-image: url("ps41.jpg");
+  background-size: cover;
+}
+
+#boxfour {
+  width: 435px;
+  height: 120px;
+  background-image: url("training1.jpg");
+  background-size: cover;
+  margin-right: 23px;
+  margin-top: 23px;
+}
+
+#boxfive {
+  width: 435px;
+  height: 120px;
+  background-image: url("voucher10.jpg");
+  background-size: cover;
+  margin-top: 23px;
+}
+
+#boxsix {
+  width: 435px;
+  height: 120px;
+  background-image: url("cabin8.jpg");
+  background-size: cover;
+  margin-right: 23px;
+  margin-top: 23px;
+}
+
+#boxseven {
+  width: 435px;
+  height: 120px;
+  background-image: url("cabin4.jpg");
+  background-size: cover;
+  margin-top: 23px;
+}
+
+.bootcamptitle {
+  margin-top: 50px;
+}
+
+#boxescolumn {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+    width: 900px;
+}
+
+#bundles1 {
+  width: 900px;
+  height: 235px;
+  background-image: url("bundle1.jpg");
+  background-size: cover;
+}
+
+#bundles2 {
+  width: 900px;
+  height: 235px;
+  background-image: url("bundle2.jpg");
+  background-size: cover;
+  margin-top: 23px;
+}
+
+#bundles3 {
+  width: 900px;
+  height: 235px;
+  background-image: url("bundle3.jpg");
+  background-size: cover;
+  margin-top: 23px;
+}
+
+#newsback {
+  background-image: url("newsbackground.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+
+#news {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: left;
+  padding-top: 50px;
+}
+
+#newsboxes {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 900px;
+}
+
+#newsone {
+  width: 900px;
+  height: 269px;
+  background-image: url("news1.jpg");
+  background-size: cover;
+}
+
+#newstwo {
+  width: 900px;
+  height: 546px;
+  background-image: url("news2.jpg");
+  background-size: cover;
+  margin-top: 23px;
+}
+
+#newsthree {
+  width: 900px;
+  height: 269px;
+  background-image: url("news3.jpg");
+  background-size: cover;
+  margin-top: 23px;
+}
+
+#newsfour {
+  width: 900px;
+  height: 186px;
+  background-image: url("news4.jpg");
+  background-size: cover;
+  margin-top: 23px;
+  margin-bottom: 50px;
+}
+
+.pricingform {
+  width: 900px;
+  height: 534px;
+  background-image: url("form1.jpg");
+  background-size: cover;
+}
+
+.pricingimg {
+  background-image: url("facilityimage.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  margin-top: 50px;
+}
+
+.pricingbottom {
+  background-image: url("pricingbackground");
+  background-size: cover;
+  background-position: bottom;
+  padding-top: 50px;
+}
