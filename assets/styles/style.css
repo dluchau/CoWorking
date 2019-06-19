@@ -383,8 +383,13 @@ button:hover {
 
 #footer-logo {
   height: auto;
-  width: 20%;
+  width: 25%;
   background-color: red;
+}
+
+#footer-logo p {
+  font-size: 0.8em;
+
 }
 
 #social-icons {
@@ -411,19 +416,19 @@ button:hover {
 
 
 .i1 {
-  background: url("../assets/images/icon-CW-facebook.png");
+  background: url("../images/icon-CW-facebook.png");
   background-size: cover;
   background-position: center;
 }
 
 .i2 {
-  background: url("../assets/images//icon-CW-insta.png");
+  background: url("../images/icon-CW-insta.png");
   background-size: cover;
   background-position: center;
 }
 
 .i3 {
-  background: url("../assets/images/icon-CW-linkedin.png");
+  background: url("../images/icon-CW-linkedin.png");
   background-size: cover;
   background-position: center;
 }
@@ -431,7 +436,7 @@ button:hover {
 
 #footer-sider {
   height: 60%;
-  width: 20%;
+  width: 25%;
   background-color: blue;
 }
 
@@ -442,6 +447,18 @@ button:hover {
 
 #footer-kontakt {
   height: 60%;
-  width: 20%;
+  width: 25%;
   background-color: green;
+}
+#footer-kontakt ul {
+  display: block;
+}
+
+#footer-kontakt li {
+  font-size: 0.9em;
+  display: block;
+}
+
+#footer-kontakt p {
+  font-size: 0.9em;
 }
